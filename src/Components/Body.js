@@ -15,7 +15,7 @@ const Body = () => {
     return (
         <div className="flex items-center justify-center p-10 ">
             <div className="shadow-2xl flex p-5 flex-col items-center justify-center bg-white md:w-[65%] w-[100%]  lg:w-[45%] rounded-2xl">
-                <span className={`pt-2 font-bold text-[#7242FA] ${touched === true ? 'invisible' : 'visible'}`}>Generate random numbers between 1 and 100</span>
+                <span className={`text-center pt-2 font-bold text-[#7242FA] ${touched === true ? 'invisible' : 'visible'}`}>Generate random numbers between 1 and 100</span>
                 <div className='flex flex-col items-center justify-center p-5 w-[80%] h-[200px]  bg-[#ECE9FF] rounded m-5'>
                     <span className={`text-center ${number === 0 ? 'text-[#7242FA] text-md' : 'text-6xl font-semibold text-[#7242FA]'}`}>{number === 0 ? 'No Number Generated Yet' : number}</span>
                 </div>
