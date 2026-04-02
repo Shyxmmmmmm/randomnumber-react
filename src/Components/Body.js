@@ -17,7 +17,7 @@ const Body = () => {
             <div className="shadow-2xl flex p-5 flex-col items-center justify-center bg-white md:w-[65%] w-[100%]  lg:w-[45%] rounded-2xl">
                 <span className={`pt-2 font-bold text-[#7242FA] ${touched === true ? 'invisible' : 'visible'}`}>Generate random numbers between 1 and 100</span>
                 <div className='flex flex-col items-center justify-center p-5 w-[80%] h-[200px]  bg-[#ECE9FF] rounded m-5'>
-                    <span className={`text-center text-white ${number === 0 ? 'text-[#7242FA] text-md' : 'text-6xl font-semibold text-[#7242FA]'}`}>{number === 0 ? 'No Number Generated Yet' : number}</span>
+                    <span className={`text-center ${number === 0 ? 'text-[#7242FA] text-md' : 'text-6xl font-semibold text-[#7242FA]'}`}>{number === 0 ? 'No Number Generated Yet' : number}</span>
                 </div>
                 <button onClick={change} className="p-3 rounded-full border text-white bg-gradient-to-r from-[#9518FA] via-[#6649FB] to-[#3159FB] hover:scale-110 duration-700 hover:shadow-2xl  ">Generate Random number</button>
                 
