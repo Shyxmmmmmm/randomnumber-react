@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <div className="bg-white mt-10 flex py-6 px-3 justify-between items-center">
+        <div className="bg-white mt-10 flex py-6 pl-5 justify-between items-center">
             <div className="flex flex-col gap-2">
                 <h1 className="font-semibold lg:text-sm md:text-sm text-xs">Build with React and Tailwind CSS</h1>
             </div>

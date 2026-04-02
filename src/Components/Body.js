@@ -22,8 +22,8 @@ const Body = () => {
                 <button onClick={change} className="p-3 rounded-full border text-white bg-gradient-to-r from-[#9518FA] via-[#6649FB] to-[#3159FB] hover:scale-110 duration-700 hover:shadow-2xl  ">Generate Random number</button>
                 
                 
-                {touched &&(<div className={`mt-3 `}>
-                    <div className=' w-[390px] border-t-2 border-[#CCCDD3]'></div>
+                {touched &&(<div className={`mt-3 w-full`}>
+                    <div className=' w-full border-t-2 border-[#CCCDD3]'></div>
                     <div className='px-10 flex items-center justify-between mt-3'>
                         <div className='flex  items-center justify-center flex-col gap-2'>
                             <label className='text-md text-black' htmlFor="">Count</label>
@@ -34,7 +34,7 @@ const Body = () => {
                             <span className='text-[#7242FA] font-bold text-sm'>{number}</span>
                         </div>
                         <div className='flex  items-center justify-center flex-col gap-2'>
-                            <label className='text-md text-black' htmlFor="">Max</label>
+                            <label className='text-md text-black' htmlFor="">Prev</label>
                             <span className= 'font-bold text-[#7242FA] text-sm'>100</span>
                         </div>
                     </div>
