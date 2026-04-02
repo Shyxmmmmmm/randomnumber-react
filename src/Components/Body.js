@@ -34,7 +34,7 @@ const Body = () => {
                             <span className='text-[#7242FA] font-bold text-sm'>{number}</span>
                         </div>
                         <div className='flex  items-center justify-center flex-col gap-2'>
-                            <label className='text-md text-black' htmlFor="">Prev</label>
+                            <label className='text-md text-black' htmlFor="">Max</label>
                             <span className= 'font-bold text-[#7242FA] text-sm'>100</span>
                         </div>
                     </div>
